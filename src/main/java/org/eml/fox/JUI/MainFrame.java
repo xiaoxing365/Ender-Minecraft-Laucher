@@ -1,5 +1,6 @@
 package org.eml.fox.JUI;
 
+import cn.hutool.http.useragent.Browser;
 import org.eml.fox.Main;
 
 import javax.swing.*;
@@ -7,16 +8,16 @@ import java.awt.*;
 
 public class MainFrame extends JFrame {
     public MainFrame(){
-        //è®¾ç½®ç•Œé¢é¢œè‰²
+        //ÉèÖÃ½çÃæÑÕÉ«
         this.setBackground(Color.white);
-        //è®¾ç½®ç•Œé¢å¤§å°
+        //ÉèÖÃ½çÃæ´óĞ¡
         this.setSize(864,524);
-        this.setTitle("æœ«å½±æˆ‘çš„ä¸–ç•Œå¯åŠ¨å™¨-1.0-SNAPSHOT");
-        //è®¾ç½®ç•Œé¢æ˜¯å¦å¯è§
+        this.setTitle("Ä©Ó°ÎÒµÄÊÀ½çÆô¶¯Æ÷-1.0-SNAPSHOT");
+        //ÉèÖÃ½çÃæÊÇ·ñ¿É¼û
         this.setVisible(true);
-        //è®¾ç½®ç•Œé¢å±…ä¸­
+        //ÉèÖÃ½çÃæ¾ÓÖĞ
         this.setLocationRelativeTo(null);
-        //è®¾ç½®ç•Œé¢å…³é—­è¿è¡Œ
+        //ÉèÖÃ½çÃæ¹Ø±ÕÔËĞĞ
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }

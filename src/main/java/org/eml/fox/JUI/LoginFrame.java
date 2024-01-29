@@ -7,7 +7,7 @@ public class LoginFrame extends JFrame {
         this.setSize(488,430);
         this.setAlwaysOnTop(true);
         this.setLocationRelativeTo(null);
-        this.setTitle("ç™»é™†");
+        this.setTitle("µÇÂ½");
         this.setVisible(true);
     }
 }
