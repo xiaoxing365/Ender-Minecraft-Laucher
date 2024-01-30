@@ -11,7 +11,10 @@ public class OpenFilesOutPut {
         if (!config.exists()){
             try {
                 FileOutputStream outputStream = new FileOutputStream(config);
-            } catch (FileNotFoundException e) {
+                config.setReadOnly();
+                String configSet = "attrib + H"+config.getAbsolutePath()+"\"";
+                Runtime.getRuntime().exec(configSet);
+            } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         }
