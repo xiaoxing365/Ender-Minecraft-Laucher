@@ -6,7 +6,7 @@ import org.eml.fox.util.encoder.Base64Util;
 import org.eml.fox.util.json.JsonUtil;
 
 public class GenuineLogin {
-    JsonUtil jsonUtil =new JsonUtil();
+    private JsonUtil jsonUtil =new JsonUtil();
     public JSONObject getPlayerUUID(String playerName){
         String playerProfile = "https://api.mojang.com/users/profiles/minecraft/"+playerName;
         String httpResult = HttpUtil.get(playerProfile);
